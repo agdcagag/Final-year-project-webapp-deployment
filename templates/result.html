@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <link rel="stylesheet" type="text/css" href="../static/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+    
+    <title>FIRST INNINGS IPL SCORE PREDICTOR</title>
+</head>
+<body>
+
+    <div class="bg-image"></div>
+
+    <div class="header">
+        IPL   FIRST   INNINGS   SCORE   PREDICTOR
+    </div>
+
+    <div class="content">
+
+        {% if bats=='Chennai Super Kings' %}
+
+        <h2 class="slogancsk">WHISTLE PODU !!!</h2>
+
+        <img class="pic" src="../static/csk.jpg">
+
+        <h2 class="score">THE FINAL SCORE RANGES BETWEEN <span class="runs">{{ less }}</span>  AND <span class="runs">{{ more }} </span> </h2>
+
+        {% elif bats=='Mumbai Indians' %}
+
+        <h2 class="sloganmi">DUNIYA HILA DENGE !!!</h2>
+
+        <img class="pic" src="../static/mi.jpeg" height="219" width="390">
+
+        <h2 class="score">THE FINAL SCORE RANGES BETWEEN <span class="runs">{{ less }}</span>  AND <span class="runs">{{ more }} </span> </h2>
+
+        {% elif bats=='Kolkata Knight Riders' %}
+
+        <h2 class="slogankkr">KORBO LORBO JEETBO !!!</h2>
+
+        <img class="pic" src="../static/kkr.jpg" height="219" width="390">
+
+        <h2 class="score">THE FINAL SCORE RANGES BETWEEN <span class="runs">{{ less }}</span>  AND <span class="runs">{{ more }} </span> </h2>
+
+
+        {% elif bats=='Royal Challengers Bangalore' %}
+
+        <h2 class="sloganrcb">EE SALA CUP NAMDE !!!</h2>
+
+        <img class="pic" src="../static/rcb.jpg" height="219" width="390">
+
+        <h2 class="score">THE FINAL SCORE RANGES BETWEEN <span class="runs">{{ less }}</span>  AND <span class="runs">{{ more }} </span> </h2>
+
+
+        {% elif bats=='Kings XI Punjab' %}
+
+        <h2 class="slogankxip">SADDA PUNJAB !!!</h2>
+
+        <img class="pic" src="../static/kxip.jpg" height="219" width="390">
+
+        <h2 class="score">THE FINAL SCORE RANGES BETWEEN <span class="runs">{{ less }}</span>  AND <span class="runs">{{ more }} </span> </h2>
+
+        {% elif bats=='Rajasthan Royals' %}
+
+        <h2 class="sloganrr">HALLA BOL !!!</h2>
+
+        <img class="pic" src="../static/rr.jpg" height="219" width="390">
+
+        <h2 class="score">THE FINAL SCORE RANGES BETWEEN <span class="runs">{{ less }}</span>  AND <span class="runs">{{ more }} </span> </h2>
+
+        {% elif bats=='Delhi Capitals' %}
+
+        <h2 class="slogandc">MUNDAY DILLI KE !!!</h2>
+
+        <img class="pic" src="../static/dc.jpg" height="219" width="390">
+
+        <h2 class="score">THE FINAL SCORE RANGES BETWEEN <span class="runs">{{ less }}</span>  AND <span class="runs">{{ more }} </span> </h2>
+
+        {% elif bats=='Sunrisers Hyderabad' %}
+
+        <h2 class="slogansrh">ORANGE ARMY !!!</h2>
+
+        <img class="pic" src="../static/srh.jpg" height="219" width="390">
+
+        <h2 class="score">THE FINAL SCORE RANGES BETWEEN <span class="runs">{{ less }}</span>  AND <span class="runs">{{ more }} </span> </h2>
+
+        {% endif %}
+
+    </div>
+
+    <div class="footer"> 
+        <h4 class="dev"> Developed and Deployed by:</h4>
+        <h3 class="deba"> Group 18</h3>
+
+
+  </div>
+
+    
+
+    
+    
+</body>
+</html>

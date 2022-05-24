@@ -1,0 +1,318 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+
+.bg-image{
+    background-image: url(../static/background.jpg);
+    background-size: cover;
+    background-position: center center;
+    position: fixed;
+    filter: blur(5px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    -webkit-filter: blur(5px);
+
+}
+
+.header
+{
+    font-family: 'Ranchers', cursive;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 55px;
+    word-spacing: 20px;
+    font-style: italic;
+    text-shadow: 4px 4px #709cb9;
+    color: darkslategrey;
+    text-decoration-line: underline;
+}
+
+.inputs
+{
+    
+    padding-top: 20px;
+
+}
+
+.predarea
+{
+    position: relative;
+	display: flex;
+	justify-content: space-evenly;
+	padding: 20px 40px;
+}
+
+
+
+
+.firstimage
+{
+    display: inline-block;
+    position: absolute;
+    left: 70px;
+    top: 70px;
+    
+    opacity: 0.75;
+    
+}
+
+.forminput
+{
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    
+    
+    
+}
+
+.inputtext
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:midnightblue;
+}
+
+
+
+.batteam
+{
+    width: 285px;
+    height: 35px;
+    border: royalblue 4px solid;
+    background-color: powderblue;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.bowlteam
+{
+    width: 285px;
+    height: 35px;
+    border: royalblue 4px solid;
+    background-color: powderblue;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.over
+{
+    width: 273px;
+    height: 25px;
+    border: royalblue 4px solid;
+    background-color: powderblue;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.run
+{
+    width: 273px;
+    height: 25px;
+    border: royalblue 4px solid;
+    background-color: powderblue;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.wicket
+{
+    width: 273px;
+    height: 25px;
+    border: royalblue 4px solid;
+    background-color: powderblue;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.runs5
+{
+    width: 273px;
+    height: 25px;
+    border: royalblue 4px solid;
+    background-color: powderblue;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.wickets5
+{
+    width: 273px;
+    height: 25px;
+    border: royalblue 4px solid;
+    background-color: powderblue;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.button
+{
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 15px;
+    background-color: palegreen;
+    font-size: 20px;
+    border-radius: 1px;
+    border: seagreen 3px solid;
+    font-weight: bolder;
+    padding: 4px 35px;
+
+}
+
+.button:hover
+{
+    background-color: slategrey;
+    color: snow;
+}
+
+
+.secondimage
+{
+    display: inline-block;
+    top: 70px;
+    position: absolute;
+    right: 70px;
+    opacity: 0.70;
+    
+}
+
+.content
+{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.slogancsk
+{
+    font-size: 40px;
+    font-family: 'Berkshire Swash', cursive;
+    color:yellow;
+    word-spacing: 20px;
+    text-shadow: 4px 4px 5px purple;
+}
+
+.sloganmi
+{
+    font-size: 40px;
+    font-family: 'Berkshire Swash', cursive;
+    color: blue;
+    word-spacing: 20px;
+    text-shadow: 4px 4px 5px lightblue;
+}
+
+.slogankkr
+{
+    font-size: 40px;
+    font-family: 'Berkshire Swash', cursive;
+    color: purple;
+    word-spacing: 20px;
+    text-shadow: 4px 4px 5px gold;
+}
+
+.sloganrcb
+{
+    font-size: 40px;
+    font-family: 'Berkshire Swash', cursive;
+    color: red;
+    word-spacing: 20px;
+    text-shadow: 4px 4px 5px black;
+}
+
+.slogankxip
+{
+    font-size: 40px;
+    font-family: 'Berkshire Swash', cursive;
+    color:red;
+    word-spacing: 20px;
+    text-shadow: 4px 4px 5px gray;
+}
+
+.sloganrr
+{
+    font-size: 40px;
+    font-family: 'Berkshire Swash', cursive;
+    color:royalblue;
+    word-spacing: 20px;
+    text-shadow: 4px 4px 5px gold;
+}
+
+.slogandc
+{
+    font-size: 40px;
+    font-family: 'Berkshire Swash', cursive;
+    color:rgb(59, 59, 245);
+    word-spacing: 20px;
+    text-shadow: 4px 4px 5px gray;
+}
+
+.slogansrh
+{
+    font-size: 40px;
+    font-family: 'Berkshire Swash', cursive;
+    color:orange;
+    word-spacing: 20px;
+    text-shadow: 4px 4px 5px black;
+}
+
+.pic
+{
+    box-shadow: 3px 3px 5px gray;
+}
+
+.runs
+{
+    font-size: 30px;
+    font-weight: bolder;
+    color:navy;
+}
+.score
+{
+    font-size: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    color:coral;
+    text-shadow: 2px 2px 5px black;
+}
+
+.footer
+{
+
+    position:fixed;
+    align-items: center;
+    bottom: 0;
+    text-align: center;
+    padding-bottom: 0%;
+    padding-left: 575px;
+
+    
+}
+
+.dev
+{
+    font-family:Arial, Helvetica, sans-serif;
+    color: darkblue;
+    font-weight: bolder;
+}
+
+.deba
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: midnightblue;
+    font-style: italic;
+}
